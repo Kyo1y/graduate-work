@@ -1,0 +1,45 @@
+
+.reviews-container {
+    margin-top: 10rem;
+}
+
+.review-title {
+    @include font;
+    text-align: center;
+}
+.review-grid-cont {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 30rem);
+    margin:3rem;
+}
+.review-grid {
+    @include border;
+    @include font;
+    grid-template-columns: repeat(1, 22.65rem);
+    height: 21rem;
+    width: 23rem;
+}
+
+
+.alan-home {
+    margin: 0%;
+    font-size: 0.9rem;
+    color: #63CBFE ;
+    opacity: 0.9;
+}
+.alan-info {
+    justify-items: start;
+    width: 100%;
+    margin-left: 2rem;
+    max-width: 20rem;
+}
+.stars{
+    position: absolute;
+    margin: 6.3rem;
+    margin-left: 5rem;
+}
+
+.alan-review {
+    max-width: 20rem;
+    font-size: 0.88rem;
+}

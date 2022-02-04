@@ -1,0 +1,39 @@
+.book {
+    margin-top: 5rem;
+    height: 25rem;
+}
+
+.book-container {
+    display: grid;
+    grid-template-columns: repeat(1,30rem);
+    height: 20rem;
+
+}
+
+.rectangle {
+    display: grid;
+    margin-left: 3.6rem;
+    background: #40A3F8;
+    border: 7px solid #40A3F8;
+    border-radius: 12px;
+    width: 82rem;
+    height: 20rem;
+    grid-template-columns: repeat(1,30rem);
+    align-content: center;
+    justify-content: end;
+    gap: 13rem;
+}
+
+
+.title-book{
+    position: absolute;
+    max-width: 20rem;
+    @include font;
+    margin: 4rem;
+    text-transform: capitalize;
+    color: white;
+
+}
+.obsh {
+    margin-left: 9rem;
+}

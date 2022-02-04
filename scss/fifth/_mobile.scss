@@ -1,0 +1,19 @@
+.mobile {
+    margin-top: 10rem;
+}
+.mobile-grid {
+    display: inline-grid;
+    grid-template-columns: repeat(1, 80rem);
+    justify-items: end;
+    @include font;
+    text-align: start;
+    margin-top: 8rem;
+}
+.app-title {
+    width: 28rem;
+}
+.app-ph {
+    width: 28rem;
+    @include grey;
+    
+}

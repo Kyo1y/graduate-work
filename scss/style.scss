@@ -1,0 +1,30 @@
+@import './mixins/mixin';
+@import './base';
+@import './bg';
+
+
+@import './first/nav';
+@import './first/buttons';
+@import './first/finddoc';
+
+@import './img/img';
+
+@import './second/solution';
+@import './second/quality';
+
+@import './third/service';
+@import './third/swiper';
+
+@import './fourth/onlinedocs';
+
+@import './fifth/mobile';
+
+@import './sixth/reviews';
+
+@import './seven/book';
+
+@import './eight/info';
+
+@import './media/media';
+
+@import './burger/burger';

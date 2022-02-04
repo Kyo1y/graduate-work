@@ -1,0 +1,28 @@
+
+.service-cont {
+    @include font;
+    grid-template-columns: repeat(1, 29.8rem);
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40rem
+}
+
+.s-ph{
+    @include grey;
+}
+
+.swiper-service {
+    @include font;
+    display: inline-grid;
+    grid-template-columns: repeat(1, 18rem);
+    text-align: center;
+    justify-items: center;
+    border: 18px solid #F9F9F9;
+    border-radius: 8px;
+    background: #F9F9F9;
+    width: 329px;
+    margin-top: 4rem;
+    margin: 1rem;
+}

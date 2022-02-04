@@ -1,0 +1,19 @@
+.swiper {
+    max-width: 70rem;
+    margin: 0 auto;
+    overflow: hidden;
+    justify-items: center;
+}
+.swiper-wrapper {
+    margin-left: 2.3rem;
+    margin-bottom: 4rem;
+}
+.swiper-pagination-bullet {
+    --swiper-pagination-bullet-size: 15px;
+    
+}
+.swiper-pagination-bullet-acitve {
+    --swiper-pagination-bullet-width: 40px;
+    
+}
+ 

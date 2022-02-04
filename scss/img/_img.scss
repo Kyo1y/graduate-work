@@ -1,0 +1,159 @@
+
+.img {
+    position: absolute;
+    z-index: 2;
+}
+.back {
+    position: absolute;
+    z-index: 1;
+}
+.doc {
+    max-width: 48rem;
+    position: absolute;
+    margin-left: 33rem;
+    bottom: 6.8rem;
+    height: 28rem;
+    z-index: 2;
+}
+
+.patients{
+    max-width: 10rem;
+    margin-left: 60rem;
+    bottom: 13rem;
+}
+.review {
+    max-width: 10rem;
+    margin-left: 39rem;
+    bottom: 10rem;
+}
+.chat {
+    max-width: 6rem;
+    margin-left: 39rem;
+    bottom: 20rem;
+}
+.call {
+    max-width: 5rem;
+    margin-left: 45rem;
+    bottom: 30rem;
+}
+
+.bgimg {
+    max-width: 48rem;
+    margin-left: 41rem;
+    bottom: 6.8rem;
+    height: 28rem;
+    z-index: 1;
+}
+.video {
+    max-width: 5rem;
+    margin-left: 62rem;
+    bottom: 29rem;
+}
+
+//                                                                                      FIRST
+
+.loop {
+    max-width: 3rem;
+    margin-left: 20rem;
+    margin-top: 1rem;
+}
+.ellipse{
+    margin-left: 18rem;
+    margin-bottom: 7rem;
+    max-width: 7rem;
+}
+.calendar {
+    max-width: 3rem;
+    margin-left: 45rem;
+    margin-top: 1rem;
+}
+.orange {
+    margin-left: 42.86rem;
+    margin-bottom: 7rem;
+    max-width: 7rem;
+}
+
+.online {
+    max-width: 3rem;
+    margin-left: 68rem;
+    margin-top: 1rem;
+}
+
+.ellipse-two {
+    margin-left: 65.8rem;
+    margin-bottom: 7rem;
+    max-width: 7rem;
+}
+.qualityimg {
+    max-width: 35rem;
+    margin-top: 2rem;
+    margin-left: 3rem;
+}
+
+.pulmonology {
+    height: 4.5rem;
+}
+.pill {
+    height: 4.5rem;
+}
+.doctors-img {
+    border-width: 9px;
+    border: 2px solid white;
+    border-radius: 10px;
+    max-width: 267px;
+    height: 220px;
+    z-index: 1;
+}
+
+.am {
+    background: url('../img/fourth/amanda.svg');
+}
+.al {
+    background: url('../img/fourth/alisa.svg');
+}
+.anth {
+    background: url('../img/fourth/anthony.svg');
+}
+.kh {
+    background: url('../img/fourth/khalid.svg');
+}
+
+.imglinks {
+    margin: 0.3rem;
+    display: inline-grid;
+    grid-template-columns: repeat(3, 2rem);
+    gap: 1rem;
+}
+
+.mobile-img {
+    width: 50rem;
+    position: absolute;
+}
+
+.app-img {
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.avatar {
+    border-radius: 3rem;
+    margin-top: 1rem;
+    justify-items: center;
+}
+.quote {
+    position: absolute;
+    margin-left: 7rem;
+    margin-top: -1.3rem;
+}
+
+.smile-doc {
+    height: 25rem;
+    margin-bottom: 5rem;
+}
+
+.imglinks-info {
+    margin: 0.3rem;
+    display: inline-grid;
+    grid-template-columns: repeat(4, 2rem);
+    gap: 1rem;
+}

@@ -1,0 +1,180 @@
+.input {
+    background: rgb(221, 220, 220);
+    border: none rgb(221, 220, 220);
+    border-radius: 5px;
+    padding: 1rem;
+    font-family: 'Poppins';
+}
+
+.select-box {
+    display: flex;
+    width: 250px;
+    font-family: 'Poppins';
+    flex-direction: column-reverse;
+    margin-left: 1rem;
+    position: relative;
+}
+.select-box .options-container {
+    position: absolute;
+    top: 100%;
+    background: #ccc;
+    color: black;
+    transition: all 0.4s;
+    border-radius: 0 0 5px 5px ;
+    overflow: hidden;
+    width: 100%;
+    opacity: 0;
+    max-height: 0;
+}
+.select-box .options-container::-webkit-scrollbar {
+    width: 0.4rem;
+    background: rgb(148, 148, 148) ;
+    border-radius: 8px   8px 8px 8px ;
+}
+.select-box .options-container::-webkit-scrollbar-thumb{
+    background: rgb(99, 99, 99);
+    border-radius: 8px   8px  8px 8px;
+
+}
+.options-container.active {
+    max-height: 240px;
+    opacity: 1;
+    overflow-y:scroll;
+}
+.select-box .option, .city{
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+.select-box label {
+    cursor: pointer;
+}
+
+.select-box .option:hover {
+    background: rgb(221, 221, 221);
+}
+
+.radio {
+    display: none;
+}
+
+.city {
+    background: rgb(221, 220, 220);
+    border: none rgb(221, 220, 220);
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    font-size: 0.9rem;
+    height: 3.2rem;
+    width: 14rem;
+}
+
+.search {
+    display: flex;
+    flex-direction: row;
+    border: 10px solid white;
+    background: white;
+    border-radius: 5px;
+    max-width: 28.5rem;
+    margin-top: 3rem;
+}
+
+.city::before {
+    content: '';
+    background: url('../img/first/sign.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 20px;
+    left: 2rem;
+}
+.city::after {
+    content: ''; 
+    background:url('../img/first/arrow-down.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 20px;
+    height: 100%;
+    right: 1.5rem;
+    top: 1.2rem;
+
+    transition: all 0.4s;
+}
+
+.select-box .options-container.active + .city::after{
+    transform: rotateX(180deg);
+    top: -1.21rem;
+}
+
+.city.active {
+    border-radius: 5px 5px 0 0  ;
+}
+
+.nav-item-btn {
+    list-style-type: none;
+    margin-right: 2rem;
+}
+.nav-button {
+    @include button;
+    padding: 0 15px 0 15px;
+}
+.nav-button:hover{
+    @include hover
+}
+
+.nav-link-btn {
+    font-size: var(--font-size);
+    font-family: 'Poppins';
+    display: flex;
+    text-decoration:  none;
+    padding: 1rem;
+    color: var(--color);
+}
+
+.specialists {
+    @include button;
+    max-width: 13rem;
+    font-size: 1rem;
+}
+.specialists:hover{
+    @include hover;
+}
+
+.explore {
+    @include button;
+    margin: 1rem;
+    font-size: 1rem;
+    width: 13rem;
+    height: 3rem;
+    margin-left: 35rem;
+}
+.explore:hover {
+    @include hover;
+}
+
+.book-btn {
+    position: absolute;
+    margin: 5rem;
+    margin-top: 12rem;
+    @include button;
+    border: 2px solid white;
+    background:white;
+    --color: #40A3F8;
+    color: var(--color);
+    padding: 0.7rem;
+    font-size: 1rem;
+}
+.book-btn:hover {
+    background:#40A3F8;
+    border: 2px solid white;
+    --color: white;
+    color: var(--color);
+}
+.subscribe {
+    @include button;
+    margin-bottom: 0.4rem;
+}
+.subscribe:hover {
+    @include hover;
+}

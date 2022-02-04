@@ -1,0 +1,56 @@
+.onlinedocs {
+    text-align: center
+}
+
+.sub-docs {
+    @include font;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5rem;
+    display: inline-grid;
+    grid-template-columns: repeat(4, 20.5rem);
+}
+
+.p-ph {
+    @include grey;
+    margin: 0%;
+    font-size: 0.8rem;
+}
+.name-title {
+    font-size: 1.15rem;
+    margin-top: 15rem;
+    margin-bottom: 0%
+}
+.docs-ph {
+    @include grey;
+}
+.doctors {
+    display: inline-grid;
+    grid-template-columns: repeat(1, 15rem);
+    text-align: center;
+    justify-items: center;
+    max-width: 10rem;
+    border-radius: 9px;
+    max-width: 15rem;
+    margin-top: 0.5rem;
+    z-index: 2;
+    position: relative;
+    height: 14rem;
+}
+
+.doc-title-container {
+    @include font;
+    display: inline-grid;
+    grid-template-columns: repeat(1, 35rem);
+    text-align: center;
+    justify-items: center;
+    margin-top: 3rem;
+}
+.d-cont {
+    @include border;
+    grid-template-columns: repeat(1, 16rem);
+    text-align: center;
+    height: 22rem;
+    margin: 2rem;
+}

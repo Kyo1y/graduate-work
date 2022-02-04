@@ -1,0 +1,631 @@
+@media screen and (max-width: 1280px) {
+    .container {
+        padding: 0%;
+    }
+    //                                                                                FIRST
+    .doc, .bgimg{
+        bottom: 9rem;
+    }
+    .call {
+        bottom: 32rem;
+    }
+    .chat {
+        bottom: 22rem;
+    }
+    .video {
+        bottom: 31rem;
+    }
+    .review {
+        bottom: 12rem;
+    }
+    .patients {
+        bottom: 15rem;
+    }
+    //                                                                              SECOND
+    //                                                                             SOLUTION
+    .loop {
+        margin-left: 12rem;
+    }
+    .ellipse {
+        margin-left: 10rem;
+    }
+    .calendar {
+        margin-left: 37rem;
+    }
+    .orange {
+        margin-left: 34.86rem;
+    }
+    .online {
+        margin-left: 60rem;
+    }
+    .ellipse-two {
+        margin-left: 57.8rem;
+    }
+    .best {
+        margin-left: 8.5rem;
+    }
+    .appoitment {
+        margin-left: 33rem;
+    }
+    .happy {
+        margin-left: 55.4rem;
+    }
+    .grid-container {
+        margin-left: 2rem;
+    }
+//                                                                      QUAlITY
+    .q-list::before {
+        left: 36rem;
+    }
+    .qualityimg {
+        margin-left: 1.5rem;
+    }
+    .sub-docs {
+        gap: 4rem;
+        grid-template-columns: repeat(2, 20.5rem);
+
+    }
+    .explore {
+        margin-left: 15rem;
+    }
+//                                                                         FIFTH
+    .mobile {
+        margin-top: 5rem;
+    }
+    .mobile-grid {
+        grid-template-columns: repeat(1, 75rem);
+    }
+//                                                                          SIXTH
+    .review-grid-cont {
+        grid-template-columns: repeat(3, 26rem);
+    }
+//                                                                          SEVEN
+    .rectangle {
+        width: 74.5rem;
+    }
+//                                                                          EIGHT
+    .info-cont {
+        grid-template-columns: repeat(4, 21rem);
+    }
+    .hamburger--collapse {
+        display: none;
+        width: 0;
+        height: 0%;
+    }
+
+}
+@media screen and (min-width: 1280px) {
+    #hamb{
+        display: none;
+    }
+    .small {
+        display: none;
+    }
+    .nav-title {
+        list-style: none;
+    }
+    
+}
+
+@media screen and (max-width:540px) {
+    body {
+        transform: none;
+        -webkit-transform: none;
+    }
+    .xl {
+        display: none;
+    }
+    .bgblack{
+        height: 22rem;
+        position: fixed;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        top: 0;
+        left: 0;
+        right: 0;
+        &.active {
+            background: rgba(0,0,0, 0.8);
+            width: 23.5rem;
+            height: 500rem;
+        }
+        
+    }
+    .nav{
+        margin-left: 1rem;
+        display: flex;
+        position:fixed;
+        z-index: 50;
+        width: 25rem;
+    }
+    .nav-container {
+        background: rgba(#cae6ff, 0.4);
+        height: 5rem;
+        z-index: 50;
+        &.active {
+            transition: 0.5s;
+            height: 22rem;
+            z-index: 50;
+        }
+    }
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(-200%) translateX(34%) rotateX(-45deg);
+        transition: all 0.5s ease-in;
+        margin-right: 10.9rem;
+        &.active {
+        transform: translateY(21%) translateX(34%) rotateX(0deg);
+        transition: all 0.5s ease-out;
+        margin-right: 10.9rem;
+        }
+    }
+    .nav-title {
+        margin-left: 1rem;
+        position: absolute;
+        --font-size: 1.4rem;
+        max-height: 5rem;
+        position: fixed;
+        &.active {
+            margin-left: 6.4rem;
+            transition: 0.5s;
+        }
+    }
+    .nav-item{
+        margin-right: 0%;
+    }
+    .burger-cont {
+        display: flex;
+    }
+    #hamb {
+        position: absolute;
+        margin-left: 18rem;
+        margin-top: 1.4rem;
+        position: fixed;
+
+    }
+
+    .nav-button {
+        border: none;
+        background: none;
+        --color: rgb(221, 221, 221);
+        &:hover{
+            background: none;
+            border: none;
+        }
+    }
+    .find {
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    .titles {
+        max-width: 21rem;
+    }
+    .title-doc {
+        font-size: 1.5rem;
+    }
+    .search {
+        flex-direction: column;
+        max-width: 15.5rem;
+        margin-left: 2rem;
+    }
+    .select-box {
+        margin-top: 1rem;
+    }
+    .input {
+        padding-right: 2.8rem;
+    }
+    .steps {
+        margin-top: 3rem;
+    }
+    .loop {
+        margin-left: 10rem;
+    }
+    .ellipse {
+        margin-left: 8rem;
+    }
+    .calendar {
+        margin-left: 10rem;
+        margin-top: 15rem;
+    }
+    .orange {
+        margin-left: 7.9rem;
+        margin-top: 14.2rem;
+    }
+    .online {
+        margin-left: 10rem;
+        margin-top: 29rem;
+    }
+    .ellipse-two {
+        margin-left: 7.9rem;
+        margin-top: 28rem;
+    }
+    .grid-container {
+        grid-template-columns: repeat(1,24rem);
+        grid-template-rows: repeat(1, 13rem);
+    }
+    .easy {
+        font-size: 1.5rem;
+    }
+    .best {
+        margin-left: 6.5rem;
+    }
+    .sub-solution {
+        max-width: 17rem;
+        margin-left: 1rem;
+        margin-bottom: 10rem;
+    }
+    .appoitment {
+        margin-left: 6.6rem;
+        margin-top: 20rem;
+    }
+    .happy {
+        margin-top: 34rem;
+        margin-left: 5.4rem;
+    }
+    .quality-container {
+        margin-top: -9rem;
+    }
+    .q-title {
+        font-size: 1.5rem;
+        margin-right: 6rem;
+    }
+    .q-grid-cont {
+        margin-top: 15rem;
+        grid-template-rows: repeat(1, 12.7rem);
+        grid-auto-rows: minmax(4rem, auto);
+        margin-left: 1rem;
+    }
+    .q-list::before {
+        left: -0.5rem;
+    }
+    .qualityimg {
+        max-width: 20rem;
+    }
+    .specialists {
+        margin-left: 4rem;
+    }
+    .service-cont {
+        grid-template-columns: repeat(1, 20.8rem);
+    }
+    .s-title {
+        font-size: 1.5rem;
+    }
+    .swiper-slide{
+        grid-template-columns: repeat(1, 17.7rem);
+    }
+    .swiper-slide-active {
+        grid-template-columns: repeat(1, 15rem);
+    }
+    .large{
+        display: none;
+    }
+    .options-container {
+        max-height: 54px;
+        right: 2.57rem;
+        max-width: 14em;
+        &.active {
+            max-height: 54px;
+            max-width: 14rem;
+            right: 2.57rem;
+        }
+    }
+    .city {
+        right: 1rem;
+    }
+    .doc-title-container {
+        grid-template-columns: repeat(1, 22rem);
+    }
+
+    .sub-docs {
+        grid-template-columns: repeat(1, 20.5rem);
+        gap: 0rem;
+    }
+    .docs-title {
+        font-size: 1.5rem;
+    }
+    .explore {
+        margin-left: 4rem;
+    }
+    .mobile-img {
+        max-width: 33rem;
+        margin-left: -2.9rem;
+    }
+    .mobile-grid {
+        grid-template-columns: repeat(1, 21rem);
+        margin-top: 22rem;
+    }
+    .gplay {
+        margin-left: 5rem;
+        margin-top: 5.5rem;
+        position: absolute;
+    }
+    .appstore {
+        margin-right: 6rem;
+        margin-top: 4rem;
+        margin-left: 1rem;
+    }
+    .app-title {
+        width: 20rem;
+        font-size: 1.5rem;
+    }
+    .app-ph {
+        width: 20rem;
+    }
+    .reviews-container {
+        margin-top: 4rem;
+    }
+    .review-title {
+        font-size: 1.5rem;
+        margin-left: 1.8rem;
+        max-width: 20rem;
+    }
+    .review-grid-cont {
+        gap: 2rem;
+        margin-left: 2rem;
+        grid-template-columns: repeat(1, 25rem);
+    }
+    .review-grid {
+        grid-template-columns: repeat(1, 18.65rem);
+        height: 21rem;
+        width: 20rem;
+    }
+    .rectangle {
+        width: 20rem;
+        margin-left: 2rem;
+        grid-template-rows: repeat(1, 45rem);
+        height: 45rem;
+    }
+    .smile-doc {
+        margin-left: 4.4rem;
+    }
+    .book-btn {
+        margin-top: 39rem;
+    }
+    .title-book {
+        margin-top: 25rem;
+    }
+    .info-cont {
+        grid-template-columns: repeat(1, 16rem);
+    }
+    .info-grid-main {
+        grid-template-columns: repeat(1, 15rem);
+        margin-left: 6rem;
+    }
+    .info-grid-cont {
+        gap: 1rem;
+        grid-template-rows: repeat(1, 4rem);
+        grid-template-columns: repeat(1, 18rem);
+
+    }
+    .cat {
+        font-size: 1.5rem;
+    }
+    .info {
+        margin-top: 25rem;
+    }
+    .obsh {
+        margin-left: 4rem;
+        max-width: 15rem;
+    }
+    .lala {
+        margin-left: 12.6rem;
+    }
+    .newspaper {
+        margin-left: 8rem;
+    }
+    .subscribe {
+        height: 3rem;
+        font-size: 1.1rem;
+    }
+    .info-small-cont {
+        display: grid;
+        grid-template-columns: repeat(2, 13rem);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(-200%) translateX(10%) rotateX(-45deg);
+        transition: all 0.5s ease-in;
+        margin-right: 10.9rem;
+        &.active {
+        transform: translateY(-10%) translateX(35%) rotateX(0deg);
+        transition: all 0.5s ease-out;
+        margin-right: 20.9rem;
+        }
+    }
+    .large {
+        display: none;
+    }
+    #hamb {
+        margin-left: 42rem;
+        position: absolute;
+        margin-top: -5.5rem;
+    }
+    .bgblack {
+        height:1rem;
+        &.active {
+            background: rgba(0,0,0, 0.8);
+            height: 25rem;
+        }
+    }
+    .small{
+        &.active {
+            margin-left: 16rem;
+        }
+    }
+    .imgblock {
+        margin-left: -38rem;
+        height: 30rem;
+    }
+    .doc, .bgimg {
+        bottom: -3rem;
+    }
+    .patients {
+        bottom: 0rem;
+    }
+    .review {
+        bottom: 0rem;
+    }
+    .chat {
+        bottom: 9rem;
+    }
+    .call {
+        bottom: 20rem;
+    }
+    .video {
+        bottom: 18rem;
+    }
+    .sub-link {
+        font-size: 1.1rem;
+    }
+    .nav-button {
+        display: none;
+    }
+    .orange {
+        margin-top: 0.2rem;
+        margin-left: 32.3rem;
+    }
+    .calendar {
+        margin-left: 34.4rem;
+    }
+    .online {
+        margin-left: 21rem;
+        margin-top: 18rem;
+    }
+    .ellipse-two {
+        margin-left: 18.9rem;
+        margin-top: 17rem;
+    }
+    .grid-container {
+        gap: 3rem;
+        grid-template-columns: repeat(2, 20rem);
+    }
+    .appoitment {
+        margin-left: 31rem;
+    }
+    .loop {
+        margin-left: 11rem;
+    }
+    .ellipse {
+        margin-left: 9rem;
+    }
+
+    .last {
+        margin-top: 12rem;
+        margin-left: 10rem;
+        width:20rem;
+    }
+    .best {
+        margin-left: 7.2rem;
+    }
+
+    .happy {
+        margin-top: 23rem;
+        margin-left: 16.4rem;
+    }
+    .q-grid-cont {
+        margin-top: 0rem;
+    }
+    .q-title {
+        margin-right: 7rem;
+    }
+    .qualityimg {
+        margin-left: 6.5rem;
+        margin-top: 32rem;
+    }
+    .q-list::before {
+        left: 7rem;
+    }
+    .service-cont {
+        margin-top: 62rem;
+    }
+    .s-title {
+        font-size: 2.5rem;
+    }
+    .s-ph {
+        font-size: 1.1rem;
+    }
+    .sub-docs {
+        gap: 0;
+    }
+    .mobile-grid {
+        grid-template-columns: repeat(1, 50rem);
+        margin-top: 35rem;
+        justify-items: center;
+    }
+    .mobile-img {
+        margin-left: 2rem;
+    }
+    .app-title {
+        width: 30rem;
+        font-size: 2.3rem;
+    }
+    .app-ph {
+        width: 30rem;
+    }
+    .app-img {
+        margin-left: 3rem;
+        margin-right: 0%;
+    }
+    .review-title {
+        margin-left: 7rem;
+        width: 70%;
+    }
+    .review-grid-cont{
+        gap:3rem;
+        margin-left: 12rem;
+        margin-top: 2rem;
+        grid-template-columns: repeat(1, 26rem);
+    }
+    .rectangle {
+        width: 40.7rem;
+        grid-template-columns: repeat(1,26rem);
+    }
+    .obsh {
+        margin-left: 2rem;
+    }
+    .info-cont {
+        grid-template-columns: repeat(2,7rem);
+    }
+    .info-small-cont{
+        grid-template-columns: repeat(2, 26rem);
+    }
+    .lala {
+        margin-left: 32rem;
+    }
+    .subscribe {
+        height: 2.5rem;
+    }
+    #sign {
+        margin-bottom: 0.4rem;
+    }
+    .sign-ph {
+        margin-bottom: 1rem;
+    }
+    .newspaper {
+        margin-left: 25rem;
+    }
+
+}    
+@media screen and (max-width: 1024px) {
+        .small {
+            display: none;
+        }
+    #hamb {
+        display: none;
+    }
+    .nav-title {
+        list-style: none;
+    }
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    .additional {
+        display: none;
+    }
+}

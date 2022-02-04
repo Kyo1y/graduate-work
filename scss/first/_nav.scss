@@ -1,0 +1,55 @@
+$color:#40A3F8;
+$font-size: 1rem;
+:root {
+    --color:#{$color};
+    --font-size: #{$font-size};
+}
+
+.nav {
+    margin-bottom: 7rem;
+}
+
+.nav-list {
+    @include flex;
+    margin-right: 5rem;
+    justify-content: flex-end;
+    margin-top: 0%;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin-right: 2rem;
+    
+}
+.nav-link {
+    font-size: var(--font-size);
+    font-family: 'Poppins';
+    display: flex;
+    text-decoration:  none;
+    padding: 1rem;
+    color: var(--color);
+    --color: rgb(221, 221, 221);
+}
+
+.nav-title {
+    text-transform: uppercase;
+    justify-content: flex-start;
+    margin-right: auto;
+    margin-left: 5rem;
+   --font-size: 2rem;
+    font-size: var(--font-size);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #40A3F8;
+}
+.nav-link-always {
+    font-size: var(--font-size);
+    font-family: 'Poppins';
+    display: flex;
+    text-decoration:  none;
+    padding: 1rem;
+    color: var(--color);;
+}

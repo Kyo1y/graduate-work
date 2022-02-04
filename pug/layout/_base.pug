@@ -1,0 +1,52 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0", user-scalable="none")
+        title Document
+        link(rel="stylesheet", href="css/style.css")
+        link(rel="stylesheet", href="./node_modules/swiper/swiper-bundle.css")
+    body
+        .container
+            .nav-container
+                .nav(id="selectPage")
+                    block nav 
+                    include ../chunks/first/_nav
+            .sub-container
+                .find
+                    block find
+                    include ../chunks/first/_finddoc
+                .solution
+                    block solution
+                    include ../chunks/second/_solution
+                .quality 
+                    block quality 
+                    include ../chunks/second/_quality
+                .service
+                    block service
+                    include ../chunks/third/_service
+                .onlinedocs
+                    block onlinedocs
+                    include ../chunks/fourth/_onlinedocs
+                .mobile
+                    block mobile
+                    include ../chunks/fifth/_mobile
+                .reviews
+                    block reviews
+                    include ../chunks/sixth/_reviews
+                .book
+                    block book
+                    include ../chunks/seven/_book
+        .info
+            block info
+            include ../chunks/eight/_info
+
+
+
+        script(src="js/jquery.min.js")
+        script(src="./node_modules/swiper/swiper-bundle.min.js") 
+        script(src="js/swiper.js") 
+        script(src="js/city.js") 
+        script(src="js/nav.js") 
+        script(src="js/burger.js") 

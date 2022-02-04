@@ -1,0 +1,43 @@
+.steps {
+    margin-top: 9rem;
+    @include font;
+}
+.sub-sol-title {
+    position: absolute;
+    text-transform: capitalize;
+    margin-top: 6rem;
+    max-width: 13rem;
+
+}
+.easy {
+    text-align: center;
+    width: 100%;
+}
+.best {
+    margin-left: 16.5rem;
+}
+.appoitment {
+    margin-left: 41rem;
+}
+.happy {
+    margin-left: 63.4rem;
+}
+
+.grid-container {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns:repeat(3, 24rem);
+    grid-auto-rows: minmax(40px, auto);
+    gap: 1rem;
+    text-align: center;
+    margin-top: 9rem;
+    margin-left: 9rem;
+    justify-content: center;
+}
+
+.sub-solution {
+    max-height: 5rem;
+    font-size: 13px;
+    @include grey;
+    
+}

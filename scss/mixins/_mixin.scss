@@ -1,0 +1,39 @@
+@mixin flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+@mixin font {
+    font-family: 'Poppins';
+}
+
+@mixin grey {
+    color: #8f8f8f;
+}
+@mixin button {
+    @include font;
+    border: 2px solid #40A3F8;
+    background:#40A3F8;
+    --color: white;
+    color: var(--color);
+    border-radius: 8px;
+    max-height: 4rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+@mixin hover {
+    background:white;
+    border: 2px solid white;
+    --color: #40A3F8;
+    color: var(--color);
+}
+
+@mixin border {
+    display: inline-grid;
+    background: white;
+    border: 5px solid white;
+    border-radius: 9px;
+    @include font;
+    justify-items: center;
+}
